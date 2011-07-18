@@ -1,0 +1,21 @@
+h1. Caesar Cipher
+
+encode/decode any string using the Caesar Cipher method.
+
+h3. Instalation
+
+pre. gem install caesar
+ 
+h3.  Usage
+
+bc.. require 'caesar'
+
+Caesar.encode('A', 'CAESAR') #=> "CAESAR"
+Caesar.encode('R', 'CAESAR') #=> "TRVJRI"
+
+Caesar.decode('A', 'CAESAR') #=> "CAESAR"
+Caesar.decode('R', 'TRVJRI') #=> "CAESAR"
+
+h3. Authors
+
+Roberto Decurnex ("nex.development@gmail.com":malto:nex.development@gmail.com)
